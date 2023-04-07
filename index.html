@@ -22,8 +22,8 @@
 
 
    
-    <input type="checkbox" id="html" name="html" value="html">
-    <label for="html"> HTML</label><br>
+    <input type="checkbox" id="html" name="html" value="html" checked=true>
+    <label for="html" readonly> HTML</label><br>
     <input type="checkbox" id="css" name="css" value="css">
     <label for="css"> CSS</label><br>
     <input type="checkbox" id="js" name="js" value="js">
@@ -35,9 +35,14 @@
     <option value="react">React</option>
     <option value="angular">Angular</option>s
     <option value="vue">Vue</option>
-    <option value="svelte">Svelte</option>
-   
+    <option value="svelte">Svelte</option> 
   </select>
+  <h2>React Frameworks</h2>
+  <ul id="reactframeworks">
+    <li id="nextjs" class="frameworks">NextJS</li>
+    <li id="astro" class="frameworks">Astro</li>
+    <li id="gatsby" class="frameworks">Gatsby</li>
+  </ul>
  <button type="button" onClick="handleClick()" class="click-me" >Click Me</button>
   </form>
  
